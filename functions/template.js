@@ -14,7 +14,7 @@ const render = (title, event, fields, ticket, url) => {
 <table align="center" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;font-family: Arial, sans-serif; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
     <tr>
         <td bgcolor="#343a40" align="center" style="padding: 40px 0 30px 0; color: white">
-            <img src="https://vuejs.org/images/logo.png" height="150" alt="Logo" style="display: block;"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Pacific_American_School_Logo.jpg" height="150" alt="Logo" style="display: block;"/>
             <h1>${title} Registration System</h1>
         </td>
     </tr>
