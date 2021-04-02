@@ -153,7 +153,9 @@
                         this.setInitialValues();
                     }
                     // redirect to submitted page
-                    window.location.href='/events/submitted';
+                    setTimeout(() => {
+                        window.location.href='/events/submitted';
+                    }, 2000);
                 }
             },
             getTimeslotFormatted(timeslot, seatsLeft) {
