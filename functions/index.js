@@ -53,13 +53,15 @@ exports.ticketMailer = functions.https.onRequest((req, res) => {
         transporter.use('compile', inlineBase64({ cidPrefix: 'eticket_' }));
 
         // returning result
-        return transporter.sendMail(mailOptions, (error, info) => {
-            if(error){
-                console.log(error);
-                return res.send(error.toString());
-            }
-            console.log('sended');
-            return res.send('Sended');
-        });
+	functions.logger.log('sending mail...');
+        return transporter.sendMail(mailOptions)
+	    .then(data => {
+	    	functions.logger.log('mail sent.');
+		return res.send("mail sent.");
+	    })
+	    .catch(e => {
+	    	functions.logger.warn('mail rejected: ' + e);
+		return res.send("mail rejected.");
+	    });
     });
 });
