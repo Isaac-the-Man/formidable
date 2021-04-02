@@ -1,26 +1,10 @@
-# formidable
+Ste# Formidable
 
 Block-time booking, registration system for small-scale organizations, featuring realtime feedback and e-ticket confirmation.
 
-## Project setup
+## Deploy
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install && npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Project owned and maintained by  Yu-Kai "Steven" Wang.
