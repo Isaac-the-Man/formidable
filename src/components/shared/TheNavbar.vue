@@ -1,6 +1,6 @@
 <template>
     <b-navbar toggleable="sm" type="dark" variant="dark">
-        <b-navbar-brand to="/">Formidable</b-navbar-brand>
+        <b-navbar-brand to="/">PAS Reservation Portal</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

@@ -8,14 +8,14 @@ Vue.use(Vuex);
 
 // firebase
 const config = {
-  apiKey: "AIzaSyAP73cduIt9p9WHxv3vpxOkNnhzPV8G18U",
-  authDomain: "formidable-61163.firebaseapp.com",
-  databaseURL: "https://formidable-61163.firebaseio.com",
-  projectId: "formidable-61163",
-  storageBucket: "formidable-61163.appspot.com",
-  messagingSenderId: "968197839064",
-  appId: "1:968197839064:web:f1dc880e9d63e8cc5a5fad",
-  measurementId: "G-6B0G0XLEGG"
+  apiKey: "AIzaSyDY3L11kmQV-rQngdv6u5GSS8k3_V71lpI",
+  authDomain: "pas-portal.firebaseapp.com",
+  databaseURL: "https://pas-portal.firebaseio.com",
+  projectId: "pas-portal",
+  storageBucket: "pas-portal.appspot.com",
+  messagingSenderId: "1015132118515",
+  appId: "1:1015132118515:web:dd8bda5a40900f222a4686",
+  measurementId: "G-HQP92CTJH3"
 };
 firebase.initializeApp(config);
 
